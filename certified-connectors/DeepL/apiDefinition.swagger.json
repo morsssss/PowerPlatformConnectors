@@ -183,6 +183,18 @@
           },
           {
             "in": "formData",
+            "name": "model_type",
+            "x-ms-summary": "Model Type",
+            "description": "Sets which type of model to use for the translation",
+            "type": "string",
+            "enum": [
+              "quality_optimized",
+              "prefer_quality_optimized",
+              "latency_optimized"
+            ]
+          },
+          {
+            "in": "formData",
             "name": "tag_handling",
             "x-ms-summary": "Tag Handling",
             "description": "Sets which kind of tags should be handled",
